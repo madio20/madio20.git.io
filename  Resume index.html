@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+<style>
+  /* Nav Bar */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.beginning {
+  background-color: #008057;
+  color: white;
+  text-indent: 20px;
+  padding: 4px;
+}
+  
+  .content {
+  background-color: #ccfff1;
+  padding: 10px;
+  height: 500px;
+}
+img {
+  border: 1px solid #ccfff1;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+    
+    .navbar {
+  overflow: hidden;
+  background-color: #333;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #555;
+  color: white;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+body{
+    height: 200px;
+  background-color:  #a2e8ce; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,  #a2e8ce ,#04AA6D, #036f47);
+  
+ @media (min-width: 481px) and (max-width: 767px) {
+  .beginning{
+    text-indent: 0px;
+    padding: 50px;
+  }
+   .content{
+     padding: 50px;
+   }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .topnav {
+  }
+ .beginning {
+  background-color: #008057;
+  color: white;
+  text-indent: 0px;
+  padding: 50px;
+  /* CSS */
+}
+   .content{
+     padding: 50px;
+   }
+  }
+  </style>
+  </head>
+  <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#contact">About Me</a>
+   <a href="#">Contact Form</a> 
+  <a href="#">Resume</a>
+  </a>
+</div>
+  
+  <body>
+<div class="beginning"> 
+     <h1>Resume Page </h1>
+  <h3>Here is where you learn all about me, and look at my resume</h3>
+<p><strong>Note:</strong> This may or may not be completely updated all the time</p>
+    </div>
+    
+    <div class="content">
+    <p>Click on the image to enlarge it. The image is shown on a separate page.</p>
+<a target="_blank" href="https://madio20.github.io/hosted-assets/Madison%20Piehler%20Resume.png">
+  <img src="https://madio20.github.io/hosted-assets/Madison%20Piehler%20Resume.png" alt="Resume" style="width:300px">
+</a>
+    </div>
+    
+    <div class="navbar">
+  <a href="#home" class="active">About</a>
+  <a href="#news">Contact Form</a>
+  <a href="#contact">Resume</a>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
